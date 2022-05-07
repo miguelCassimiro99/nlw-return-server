@@ -72,3 +72,13 @@ SOLID
 5. Inverter dependências da classe
 Passar dependencias da classe de forma inversa.
 A ideia é o contexto externo mostrar para a classe o que ela precisa.
+
+## Repositories Dist
+- É uma maneira de organizar o código utilizando o Repositories Pattern
+- Data Map Pattern
+- A separação de funcionalidades externas ao código ou de estruturas que o funcionamento afeta o código, mas que o código não controla o funcionamento
+### Funcional explanado
+- A ideia é criar contratos (interfaces) que dizem o que pode ser feito
+- E criar classes que implementam este contrato
+- Então uma função para adicionar um dado no banco, precisa estar dentro do contrato
+- Mas o contrato não à aciona. Apenas a classe que faz uso deste contrato
