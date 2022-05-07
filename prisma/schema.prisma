@@ -6,6 +6,19 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
+}
+
+// uuid() - a cada chamada ele gera uma Universal Unique ID
+
+// Snowflake ID - Twitter
+
+model Feedback {
+  id         String  @id @default(uuid())
+  type       String
+  comment    String
+  screenshot String?
+
+  @@map("feedbacks")
 }
