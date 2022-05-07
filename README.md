@@ -48,3 +48,27 @@ $ npx prisma migrate deploy
 
 ```
 - Depois desse comando, basta nomear a ação que você precisa que seja realizada no banco
+
+
+# Solid
+SOLID
+
+1. Single Responsability Principle
+2. Open/Closed Principle
+3. Liskov Substitution Principle
+4. Interface Segregation Principle
+5. Dependency Inversion Principle
+
+## 1. Cada classe/função não deve ter mais de uma responsabilidade da nossa regra de negócio
+### quando detectar: "essa função faz isso 'E' ..."
+
+## 2. Classes devem ser abertas para extensão e fechadas para modificação
+
+## 3. Nós devemos poder poder substituir uma classe pai por uma herança dela e tudo continuar funcionando;
+
+## 4. Trabalhar com interfaces
+### Relacionado a tipagem
+
+5. Inverter dependências da classe
+Passar dependencias da classe de forma inversa.
+A ideia é o contexto externo mostrar para a classe o que ela precisa.

@@ -27,9 +27,17 @@ app.post('/feedback', async (req, res) => {
     }
   })
 
-  // transport.sendMail({
-
-  // })
+  await transport.sendMail({
+    from: 'Equipe feedget <oi@feedget.com>',
+    to: 'Miguel Cassimiro <miguel.cassimiro99@gmail.com>',
+    subject: 'Novo Feedback',
+    html: [
+      '<div style="font-family: sans-serif; font-size: 16px; color: #111;">',
+      `<p>Tipo de feedback: ${type}</p>`,
+      `<p>Comentário: ${comment}</p>`,
+      '</div>'
+    ].join('\n')
+  })
 
   return res.status(201).json({data: feedback})
 })
