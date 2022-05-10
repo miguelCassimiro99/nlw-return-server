@@ -25,6 +25,9 @@ $ npx prisma init
 $ npx prisma studio
 ```
 
+### Project
+This Project is actually an API that works with the Front [nwl-return-web](https://github.com/miguelCassimiro99/nlw-return-web) repo.
+
 ### Some dependences explanation
 @types/node: tipagem específica do ecossystema node
 ts-node-dev: semelhante ao nodemon, irá restartar o server a cada save de alteração
