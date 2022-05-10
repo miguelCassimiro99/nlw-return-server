@@ -82,3 +82,7 @@ A ideia é o contexto externo mostrar para a classe o que ela precisa.
 - E criar classes que implementam este contrato
 - Então uma função para adicionar um dado no banco, precisa estar dentro do contrato
 - Mas o contrato não à aciona. Apenas a classe que faz uso deste contrato
+
+
+### Deploy
+- É possível utilizar como ferramenta o Railway onde é possível subir junto com o back-end já um banco em postgres para ser utilizado junto com a aplicação.
