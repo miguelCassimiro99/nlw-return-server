@@ -1,3 +1,7 @@
 /node_modules
 
+# env
 .env
+
+# Prisma local data
+prisma/dev.db
