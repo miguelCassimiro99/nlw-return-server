@@ -2,6 +2,8 @@
 
 This project was developed during the Next Level Week’Return powered by Rocketseat.
 Along the event, it was possible to use React with Tailwind and the interesting part was be able to develop the backend too.
+- [Web repo](https://github.com/miguelCassimiro99/nlw-return-web)
+- [Server repo](https://github.com/miguelCassimiro99/nlw-return-server)
 
 How does it works 🔍
 
